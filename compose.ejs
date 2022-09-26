@@ -1,0 +1,22 @@
+<%- include("partials/header") -%>
+<form action="/compose" method="post">
+    <div class="form-group">
+    <label for="movie">Movie Name:</label>
+    <input type="text" class="form-control" name="movie" placeholder="Enter movie name"><br>
+
+    <label for="genre">Genre</label>
+    <input type="text" class="form-control" name="genre" placeholder="Enter genre"><br>
+
+    <label for="rating">Rating</label>
+    <input type="text" class="form-control" name="rating" placeholder="Enter rating out of 10"><br>
+
+    <label for="describe">Description:</label>
+    <textarea name="describe" class="form-control" id="taa" placeholder="Brief description of the movie"></textarea>
+
+    </div>
+
+    <button type="submit" class="btn btn-primary" name="button">Submit</button>
+   
+</form>
+
+

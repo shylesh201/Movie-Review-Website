@@ -1,0 +1,22 @@
+<%- include('partials/header.ejs') %>
+<form method="post" action="">
+    
+    <div class="form-group">
+        <h3>Modify your entry</h3><br>
+        
+        <label for="movie">Movie Name:</label>
+        <input type="text" class="form-control" name="movie" value=<%= po.movie %>> <br>
+        
+        <label for="post">Genre:</label>
+        <input type="text" class="form-control" name="genre" value=<%= po.genre %>><br>
+        
+        <label for="rating">Rating:</label>
+        <input type="text" class="form-control" name="rating" value=<%= po.rating %>><br>
+        
+        <label for="describe">Description:</label>
+        <textarea name="describe" class="form-control" id="taa" placeholder=<%= po.describe %>></textarea>
+        
+        </div>
+
+        <button type="submit" class="btn btn-primary" name="button">Submit</button>
+</form>

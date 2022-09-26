@@ -1,0 +1,19 @@
+// append the name of the movie to the url
+
+
+<%- include('partials/header'); -%>
+<% posts.forEach(function(po){ %>
+    <h2><%=po.company%></h2>
+   <p> <strong>Genre: </strong> <%=po.genre%> </p>
+
+   <p> <strong>Rating: </strong> <%=po.rating%> </p>
+   
+   <p><strong>Description: </strong><%=po.describe.substring(0,100)+"......"%></p> <br>
+   
+   <a href="/details/<%=po.id%>/"><button class="btn btn-success">Expand</button></a>
+ 
+   <br><br>
+    <% }) %>
+
+
+

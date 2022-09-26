@@ -1,0 +1,20 @@
+<%- include('partials/header'); -%>
+<h2><%=homes%></h2>
+
+<!--<% for (var i = 0; i < posts.length; i++) { %>
+   <% console.log(posts[i].company); %>
+<% } %>  -->
+
+<% posts.forEach(function(po){ %>
+   <div class="kong">
+      <h2><%=po.movie%></h2>
+      <p> <strong>Genre: </strong> <%=po.genre%> </p>
+      <p> <strong>Rating: </strong> <%=po.rating%> </p>
+      <p><strong>Description: </strong><%=po.describe%></p>
+      <br>
+      <a href="/details/<%=po.id%>/"><button class="btn btn-success">Expand</button></a>
+   </div>
+      <% }) %>
+  
+
+      

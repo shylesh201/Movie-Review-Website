@@ -1,0 +1,76 @@
+html {
+    min-height: 100%;
+    position: relative;
+  }
+  
+  .container-fluid {
+      padding-top: 70px;
+      padding-bottom: 70px;
+  }
+body {
+  background-color: rgb(179, 247, 230)
+}
+
+.navbar{
+      padding-top: 10;
+      padding-bottom: 10;
+      border: 10;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 15;
+      letter-spacing: 5;
+      background-color: rgb(177, 221, 105);
+}
+
+.navbar-header{
+    top:0;
+    left:0;
+    padding:0;
+    float:left;
+}
+ul {
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(177, 221, 105);
+    position: fixed;
+    width: 100%;
+}
+
+.nav.navbar-nav.navbar-right li a{
+    color: red;
+    text-align:center;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+}
+
+.navbar-nav  li a:hover {
+    background-color: #111;
+    color: black!important;
+}
+.card{
+    border: 2px solid #159909;
+    margin:2px;
+    padding: 4px;
+}
+
+#taa{
+    width: 1140px;
+    height:190px ;
+}
+
+.kong{
+    margin:3px;
+    padding:2px;
+}
+.abt{
+    background-color: rgb(177, 221, 105);
+    text-align: left;
+}
+
+  
+ 
+  
+  
